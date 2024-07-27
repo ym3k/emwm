@@ -2,8 +2,8 @@
 
 PREFIX = /usr
 MANDIR = $(PREFIX)/share/man
-RCDIR = /etc/X11
-APPLRESDIR = /etc/X11/app-defaults
+RCDIR = /usr/lib/X11
+APPLRESDIR = /usr/lib/X11/app-defaults
 
 INCDIRS = -I/usr/local/include 
 LIBDIRS = -L/usr/local/lib
